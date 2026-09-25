@@ -5,6 +5,7 @@ import Section2Sha256 from './components/Section2Sha256';
 import Section3Parsing from './components/Section3Parsing';
 import Section4Vault from './components/Section4Vault';
 import Section5Usp from './components/Section5Usp';
+import Section6Demo from './components/Section6Demo';
 import Section6Download from './components/Section6Download';
 import DocsPage from './components/DocsPage';
 
@@ -15,6 +16,7 @@ const SECTION_IDS = [
   'section-4',
   'section-5',
   'section-6',
+  'section-7',
 ];
 
 export default function App() {
@@ -185,7 +187,10 @@ export default function App() {
             {/* Section 5 as sketched in Drawing 5 & requested by user */}
             <Section5Usp />
 
-            {/* Section 6: Final Download Section (windows | mac | linux) */}
+            {/* Section 6: Live Prototype Demonstration */}
+            <Section6Demo />
+
+            {/* Section 7: Final Download Section (windows | mac | linux) */}
             <Section6Download />
           </>
         )}

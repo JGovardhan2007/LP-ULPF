@@ -57,7 +57,7 @@ export default function Section6Download() {
 
   return (
     <section
-      id="section-6"
+      id="section-7"
       style={{
         height: '100vh',
         minHeight: '100vh',
@@ -332,7 +332,7 @@ export default function Section6Download() {
           UNIVERSAL LOG PREPROCESSING FRAMEWORK &bull; RELEASE v1.0.0 &bull; AIR-GAPPED READY
         </span>
 
-        {/* Bottom Right: Page Number "6" */}
+        {/* Bottom Right: Page Number "7" */}
         <div
           style={{
             fontFamily: 'JetBrains Mono, monospace',
@@ -341,7 +341,7 @@ export default function Section6Download() {
             color: '#5c5952',
           }}
         >
-          6
+          7
         </div>
       </div>
     </section>

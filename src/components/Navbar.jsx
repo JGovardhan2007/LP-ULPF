@@ -74,7 +74,7 @@ export default function Navbar({ activePage, setActivePage }) {
                       setActivePage('home');
                     }
                     setTimeout(() => {
-                      document.getElementById('section-6')?.scrollIntoView({ behavior: 'smooth' });
+                      document.getElementById('section-7')?.scrollIntoView({ behavior: 'smooth' });
                     }, 60);
                   } else if (item.id === 'home') {
                     setActivePage('home');
