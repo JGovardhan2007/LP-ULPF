@@ -79,14 +79,16 @@ export default function Section1Hero() {
         </h1>
         <p
           style={{
-            fontSize: 'clamp(0.85rem, 1.3vw, 1.05rem)',
-            letterSpacing: '0.22em',
-            textTransform: 'uppercase',
-            color: '#8c8980',
-            fontWeight: 500,
+            fontSize: 'clamp(0.9rem, 1.35vw, 1.15rem)',
+            letterSpacing: '0.08em',
+            color: '#a39f94',
+            fontWeight: 400,
           }}
         >
-          Line-Rate Log Ingestion &amp; Preprocessing Framework
+          <span style={{ fontWeight: 800, color: '#f5f4ef' }}>W</span>ide-enterprise{' '}
+          <span style={{ fontWeight: 800, color: '#f5f4ef' }}>E</span>vent{' '}
+          <span style={{ fontWeight: 800, color: '#f5f4ef' }}>E</span>xtraction &amp;{' '}
+          <span style={{ fontWeight: 800, color: '#f5f4ef' }}>D</span>ecoding Framework
         </p>
       </div>
 
